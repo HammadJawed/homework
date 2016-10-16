@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    text-decoration: none;
+}
+body
+{
+    background: url("../homework/ghost.png");
+
+
+}
+#main-container
+{
+    width: 83%;
+    height:800px;
+    /*background: url("../homework/ghost.png");
+    /*background: url('../homework/abc.PNG')no repeat center center fixed;
+    background-size: 100% 100%;*/
+    margin: 0 auto;
+    /*-webkit-animation: abc 5s infinite;
+}
+
+
+@-webkit-keyframes abc {
+    30%{
+
+        background-image: url("asd.jpg");
+        background-size: 100% 100%;
+    }
+    60%{
+
+        background-image: url("asd1.jpg");
+        background-size: 100% 100%;
+    }
+    20%{
+
+        background-image: url("ghost.png");
+        background-size: 100% 100%;
+    }*/
+
+}
+
+
+.circle-div {
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background: url("../homework/spider.jpg") no-repeat;
+    background-size: 100% 100%;
+    margin-left: 250px;
+    margin-top: 300px;
+    -webkit-animation: abc 3s infinite;
+}
+@-webkit-keyframes abc {
+
+    /*100%{
+
+        background: url("spider1.jpg");
+        background-size: 100% 100%;
+    }*/
+    100%{
+
+        background: url("spider2.jpg");
+        background-size: 100% 100%;
+    }
+    25%{
+
+        background: url("spider3.jpg");
+        background-size: 100% 100%;
+    }
+
+}
+.circle-div1
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius:150px;
+    background:url("../homework/batman.jpg")no-repeat;
+    background-size: 100% 100%;
+    margin-left:750px ;
+    margin-top: -200px;
+    -webkit-animation: abc1 3s infinite;
+}
+@-webkit-keyframes abc1  {
+
+    /*100% {
+
+        background: url("batman.jpg");
+        background-size: 100% 100%;
+    }*/
+    100% {
+
+        background: url("batman1.jpg");
+        background-size: 100% 100%;
+    }
+    25% {
+
+        background: url("batman2.jpg");
+        background-size: 100% 100%;
+    }
+}
+.text-div
+{
+    width: 98.5%;
+    height: auto;
+    background-color: red;
+    font-size: 19px;
+    font-family: "Bauhaus 93";
+    text-align: center;
+    margin-left: 10px;
+}
+
+.email{
+margin-top: 000px;
+    margin-left:490px;
+    font-size: 19px;
+    font-family: "Bauhaus 93";
+}
